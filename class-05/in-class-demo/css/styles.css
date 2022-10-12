@@ -1,0 +1,49 @@
+/* Proof of life */
+/* body {
+  background-color: chartreuse;
+} */
+
+img {
+  height: 300px;
+}
+
+#top-img{
+  height: 800px;
+}
+
+header{
+  border: 6px solid black;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  background-color: red;
+}
+
+/* header{
+  margin-left:5px;
+} */
+
+a{
+  text-decoration: none;
+  color: purple;
+}
+
+li{
+  display: inline;
+}
+
+h1{
+  float: left;
+}
+
+.small{
+  background-color: blue;
+  width: 25%;
+  display: inline-block;
+}
+
+article p{
+  color: white;
+}
+
