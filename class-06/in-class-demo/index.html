@@ -13,7 +13,12 @@
 </head>
 
 <body>
-
+  <script>
+    // console.log("Hello, proof of life!");
+    alert("HI FROM THE ALERT BOX");
+    let usersName = prompt("What is your name?");
+    document.write("Hello " + usersName + ", welcome to my page!");
+  </script>
   <header>
     <h1>Foods I Like</h1>
     <nav>
@@ -26,6 +31,16 @@
   </header>
 
   <main>
+    <script>
+      let foodAnswer = prompt("Do you like food?");
+      if (foodAnswer == "yes"){
+        document.write("I'm glad you like food too!");
+      } else if (foodAnswer == "no"){
+        document.write("How do you survive then?!?!?!?!");
+      } else {
+        document.write("I'm not sure what you mean by that...");
+      }
+    </script>
     <section>
       <img id="hero"
         src="https://images.unsplash.com/photo-1635704037620-cf8c06f04971?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
@@ -76,6 +91,7 @@
 
   <footer>
     <p>&copy;Kassie Bradshaw</p>
+    <img src="pastry.jpg" />
   </footer>
 </body>
 
