@@ -40,4 +40,3 @@ function rateMyPage(){
     document.write("<img class='star-pic' src='star.jpeg' alt='bright shiny yellow star' />");
   }
 }
-

@@ -1,0 +1,19 @@
+body {
+  background-color: aqua;
+}
+
+#top{
+  background-color: red;
+}
+
+#bottom{
+  background-color: purple;
+}
+
+.top-stuff{
+  color: black;
+}
+
+.bottom-stuff{
+  color: white; 
+}
